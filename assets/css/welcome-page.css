@@ -1,0 +1,40 @@
+
+.initial-page {
+  background: var(--color-primary) url('../img/Forma\ 2.svg') no-repeat right 150px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 100; 
+}
+
+.logo {
+  margin: -100px auto 24px;
+}
+
+.main h2 {
+  color: var(--color-white);
+  font-family: var(--font--alternative);
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.main p {
+  color: var(--color-white);
+  text-align: center;
+  line-height: 24px;
+  margin: 16px;
+  width: 250px;
+}
+
+.main__img {
+  background: url('../img/cat-dog-ilustration.svg') no-repeat;
+  width: 247.34px;
+  height: 312.77px;
+  margin: 16px auto -16px;
+  
+}
