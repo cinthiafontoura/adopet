@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Poppins:wght@400;500;600&display=swap');
+
+@import url('footer.css');
+
+:root {
+  --font--main: 'Poppins', sans-serif;
+  --font--alternative: 'IBM Plex Sans', sans-serif;
+  --color-green: #36D6AD;
+  --color-white: #FFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font--main);
+  font-weight: 400;
+  font-size: 16px;
+}
