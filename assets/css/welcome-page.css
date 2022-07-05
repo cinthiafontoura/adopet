@@ -1,6 +1,7 @@
 
 .initial-page {
-  background: var(--color-primary) url('../img/Forma\ 2.svg') no-repeat right 150px;
+  background: var(--color-primary) url('../img/design-2.svg') no-repeat right 150px;
+  
 }
 
 .main {
@@ -32,7 +33,7 @@
 }
 
 .main__img {
-  background: url('../img/cat-dog-ilustration.svg') no-repeat;
+  background: url('../img/ilustration.svg') no-repeat;
   width: 247.34px;
   height: 312.77px;
   margin: 16px auto -16px;
