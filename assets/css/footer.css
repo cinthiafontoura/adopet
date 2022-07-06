@@ -1,14 +1,12 @@
-.footer {
+footer {
   background-color: var(--color-secondary--one);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 10vh;
-  width: 100vw;
   color: var(--color-white);
-  position: absolute;
+  position: relative;
   z-index: 300;
-  bottom: 0;
 }
 
 .footer__link {

@@ -4,6 +4,7 @@
 
 .btn {
   width: 150px;
+  margin: 20px 0 50px;
 }
 
 .corner-img {
@@ -47,4 +48,10 @@
 
 input[type="password"] {
   background: var(--color-lightgray) url('/assets/img/eye-slash.svg') 95% no-repeat;  
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

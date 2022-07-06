@@ -6,17 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdoPet - Sign Up</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/login-signup.css">
   </head>
-  <body>
+  <body class="login-singup_page">
     
     <header class="header">
+      <img src="assets/img/pawns.svg" alt="Three pawns" class="corner-img">
       <a href="home.html" class="header__icon" role="button"><img src="assets/img/home.svg" alt="Home"></a>
       <a href="message.html" class="header__icon" role="button"><img src="assets/img/message.svg" alt="Messages"></a>
     </header>
 
-    <main>signup</main>
+    <main class="main">
+      <h1 class="logo">
+        <img src="assets/img/logo-blue.svg" alt="AdoPet">
+      </h1>
+      <p class="contrast-text">Don't have a registration yet?</p>
+      <p class="contrast-text">So, before looking for your best friend, we need some data:</p>
+      <form class="form-one">
+        <label for="email-singup" class="form-one__label">Email</label>
+        <input type="email" id="email-login" placeholder="Enter your email" class="form-one__input">
+        <label for="name-singup" class="form-one__label">Name</label>
+        <input type="email" id="name-singup" placeholder="Enter your full name" class="form-one__input">
+        <label for="password-singup" class="form-one__label">Password</label>
+        <input type="password" id="password-singup" placeholder="Choose a password" class="form-one__input">
+        <label for="password-singup" class="form-one__label">Confirm Password</label>
+        <input type="password" id="password-singup" placeholder="Confirm your password" class="form-one__input">
+        
+        <input class="btn" type="submit" value="Sing Up">
+      </form>
+    </main>
 
-    <footer class="footer">
+    <footer>
       <p>
         2022 - Made by 
         <a href="https://cinthiafontoura.com/" class="footer__link">Cinhia Fontoura</a>
