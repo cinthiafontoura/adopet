@@ -1,20 +1,7 @@
 
 .initial-page {
-  background: var(--color-primary) url('../img/design-2.svg') no-repeat right 150px;
-  
-}
-
-.main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  z-index: 100; 
-}
-
-.logo {
-  margin: -100px auto 24px;
+  background: var(--color-primary) url('../img/design-2.svg') no-repeat right 150px; 
+  height: 70vh; 
 }
 
 .main h2 {

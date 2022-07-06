@@ -12,6 +12,10 @@
   --color-secondary--two: #FC7071;
   --color-terciary : #FCF0E3;
   --color-white: #FFF;
+  --color-lightgray: #F6F6F6;
+  --color-gray: #BCBCBC;
+  --color-darkgray: #737380;
+
 }
 
 * {
@@ -26,16 +30,37 @@ body {
   font-size: 16px;       
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 100; 
+}
+
+.logo {
+  margin: -100px auto 24px;
+  line-height: 20px;
+}
+
+.contrast-text {
+  color: var(--color-primary);
+  text-align: center;
+  margin: 5%;
+}
+
 .btn {
   background: var(--color-secondary--two);
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--color-secondary--two);
   border-radius: 6px;
   color: var(--color-white);
   font-weight: 600;
+  font-size: 16px;
   padding: 8px;
   text-decoration: none;
   text-align: center;
   width: 180px;
   height: 40px;
-  margin: 8px;
+  margin: 20px;
 }

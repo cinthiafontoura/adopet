@@ -1,0 +1,50 @@
+.login-singup_page {
+  background: url('../img/design-3.svg') no-repeat left 360px;
+}
+
+.btn {
+  width: 150px;
+}
+
+.corner-img {
+  position: absolute;
+  right: 0;
+}
+
+.form-one {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-one__label {
+  color: var(--color-darkgray);
+  margin-top: 10px;
+}
+
+.form-one__input {
+  background: var(--color-lightgray);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  width: 312px;
+  margin: 8px;
+  padding:10px
+}
+
+.form-one__link {
+  color: var(--color-secondary--two);
+}
+
+::placeholder {
+  text-align: center;
+  color: var(--color-gray);
+  font-size: 12px;
+  font-family: var(--font--main);
+}
+
+input[type="password"] {
+  background: var(--color-lightgray) url('/assets/img/eye-slash.svg') 95% no-repeat;  
+}
