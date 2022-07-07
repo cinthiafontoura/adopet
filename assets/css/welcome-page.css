@@ -1,27 +1,20 @@
-
 .initial-page {
-  background: var(--color-primary) url('../img/design-2.svg') no-repeat right 150px; 
-  height: 70vh; 
+  background-color: var(--color-primary);
+  background-image: url('../img/design-1.svg'), url('../img/design-2.svg'), url('../img/ilustration.svg'); 
+  background-repeat: no-repeat;
+  background-position: top left, right top 12em, bottom 5.2em center;
 }
 
-.main h2 {
+.initial-page__title {
   color: var(--color-white);
   font-family: var(--font--alternative);
   font-size: 26px;
   font-weight: 500;
 }
 
-.main p {
+.initial-page__text {
   color: var(--color-white);
   text-align: center;
   line-height: 24px;
-  margin: 16px;
-  width: 250px;
-}
-
-.main__img {
-  background: url('../img/ilustration.svg') no-repeat;
-  width: 247.34px;
-  height: 312.77px;
-  margin: 16px auto -16px;
+  margin: 16px 60px;
 }

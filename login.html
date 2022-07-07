@@ -8,15 +8,25 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/login-signup.css">
   </head>
-  <body class="login-singup_page">
+  <body>
     
-    <header class="header">
+    <header>
       <img src="assets/img/pawns.svg" alt="Three pawns" class="corner-img">
-      <a href="home.html" class="header__icon" role="button"><img src="assets/img/home.svg" alt="Home"></a>
-      <a href="message.html" class="header__icon" role="button"><img src="assets/img/message.svg" alt="Messages"></a>
+      <nav>
+        <li>
+          <a href="home.html"  role="button">
+            <img src="assets/img/home.svg" alt="Home" class="header__icon">
+          </a>
+        </li>
+        <li>
+          <a href="message.html" role="button">
+            <img src="assets/img/message.svg" alt="Messages" class="header__icon">
+          </a>
+        </li>
+      </nav>     
     </header>
 
-    <main class="main">
+    <main class="login-singup_page">
       <h1 class="logo">
         <img src="assets/img/logo-blue.svg" alt="AdoPet">
       </h1>
@@ -27,11 +37,11 @@
         <label for="password-login" class="form-one__label">Password</label>
         <input type="password" id="password-login" placeholder="Enter your email" class="form-one__input">
         <a href="#" class="form-one__link">Forgot password.</a>
-        <input class="btn" type="submit" value="Login">
+        <a href="home.html" class="btn">Login</a>
       </form>
     </main>
     
-    <footer class="footer">
+    <footer>
       <p>
         2022 - Made by 
         <a href="https://cinthiafontoura.com/" class="footer__link">Cinhia Fontoura</a>

@@ -1,5 +1,5 @@
 .login-singup_page {
-  background: url('../img/design-3.svg') no-repeat left 360px;
+  background: url('../img/design-3.svg') no-repeat left bottom 3em;
 }
 
 .btn {
@@ -48,10 +48,4 @@
 
 input[type="password"] {
   background: var(--color-lightgray) url('/assets/img/eye-slash.svg') 95% no-repeat;  
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
