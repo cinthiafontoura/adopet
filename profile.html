@@ -7,14 +7,47 @@
     <title>AdoPet</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
-  <body>
+  <body class="initial-page">
     
-    <header class="header">
-      <a href="home.html" class="header__icon" role="button"><img src="assets/img/home.svg" alt="Home"></a>
-      <a href="message.html" class="header__icon" role="button"><img src="assets/img/message.svg" alt="Messages"></a>
+    <header>
+      <nav>
+        <li>
+          <a href="home.html"  role="button">
+            <img src="assets/img/home.svg" alt="Home" class="header__icon">
+          </a>
+        </li>
+        <li>
+          <a href="message.html" role="button">
+            <img src="assets/img/message.svg" alt="Messages" class="header__icon">
+          </a>
+        </li>
+      </nav>     
+        
+      <a href="profile.html" class="header__icon header__icon--user" role="button"><img src="assets/img/profile-img-small.png" alt="Profile photo"></a>
+      
     </header>
 
-    <main>profile</main>
+    <main>
+
+      <h2 class="contrast-text--no-logo">This is the profile that appears for those responsible or NGOs that receive your message.</h2>
+
+      <form class="form-two">
+        <h3 class="form-two__title">Profile</h3>
+        <h4 class="form-two__label">Photo</h4>
+        <img src="assets/img/profile-img-big.png" alt="Profile photo" class="form-two__img">
+        <p>Click on photo to edit</p>
+        <label for="profile-name" class="form-two__label">Name</label>
+        <input type="text" value="Joana D'arc" id="profile-name" required class="form-two__input">
+        <label for="phone" class="form-two__label">Phone</label>
+        <input type="text" id="phone" value="012 345 6789" class="form-two__input">
+        <label for="animal" class="form-two__label">City</label>
+        <input type="text" id="animal" value="Dublin" class="form-two__input">
+        <label for="about" class="form-two__label">About</label>
+        <textarea name="" id="about" cols="30" rows="10" class="form-two__input">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</textarea>
+        <input type="button" value="Save" class="btn">
+      </form>
+      
+    </main>
 
     <footer class="footer">
       <p>

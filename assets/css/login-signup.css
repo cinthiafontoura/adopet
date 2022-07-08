@@ -39,7 +39,7 @@
   color: var(--color-secondary--two);
 }
 
-::placeholder {
+.form-one::placeholder {
   text-align: center;
   color: var(--color-gray);
   font-size: 12px;

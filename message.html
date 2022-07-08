@@ -9,12 +9,41 @@
   </head>
   <body class="initial-page">
     
-    <header class="header">
-      <a href="home.html" class="header__icon" role="button"><img src="assets/img/home.svg" alt="Home"></a>
-      <a href="message.html" class="header__icon" role="button"><img src="assets/img/message.svg" alt="Messages"></a>
+    <header>
+      <nav>
+        <li>
+          <a href="home.html"  role="button">
+            <img src="assets/img/home.svg" alt="Home" class="header__icon">
+          </a>
+        </li>
+        <li>
+          <a href="message.html" role="button">
+            <img src="assets/img/message.svg" alt="Messages" class="header__icon">
+          </a>
+        </li>
+      </nav>     
+        
+      <a href="profile.html" class="header__icon header__icon--user" role="button"><img src="assets/img/user.svg" alt="User"></a>
+      
     </header>
 
-    <main>message</main>
+    <main>
+
+      <h2 class="contrast-text--no-logo">Send a message to the person or institution that is caring for the animal:</h2>
+
+      <form class="form-two">
+        <label for="name" class="form-two__label">Name</label>
+        <input type="text" placeholder="Enter your full name" id="name" required class="form-two__input">
+        <label for="phone" class="form-two__label">Phone</label>
+        <input type="number" id="phone" required placeholder="Enter your phone and/or whatsapp" class="form-two__input">
+        <label for="animal" class="form-two__label">Animal Name</label>
+        <input type="text" id="animal" placeholder="Which animal were you interested in?" required class="form-two__input">
+        <label for="msg" class="form-two__label">Message</label>
+        <textarea name="" id="msg" cols="30" rows="10" placeholder="Write your message." class="form-two__input"></textarea>
+        <input type="button" value="Send" class="btn">
+      </form>
+      
+    </main>
 
     <footer class="footer">
       <p>

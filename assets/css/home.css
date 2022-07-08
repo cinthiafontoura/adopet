@@ -1,3 +1,47 @@
-.profile-img {
+.card {
+  background-color: var(--color-lightgray);
+  width: 360px;
+  padding: 16px;
+  margin-top: 16px;
+  display: flex;
+}
+
+.card__img {
+ margin: 8px;
+
+}
+
+.card__infos {
+ text-align: left;
+ margin-left: 8px;
+
+}
+
+.card__title {
+  color: var(--color-primary);
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.card__info {
+  color: var(--color-darkgray);
+  font-size: 16px;
+}
+
+.card__location {
+  margin-top: 30px;
+  font-size: 12px;
+  color: var(--color-darkgray);
+}
+
+.card__send-msg {
+  color: var(--color-darkgray);
+  font-size: 10px;
+  text-decoration: none;
   
+}
+
+.card__icon {
+  margin-right: 8px;
+  transform: translateY(8px);
 }

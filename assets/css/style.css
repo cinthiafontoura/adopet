@@ -70,6 +70,14 @@ main {
   margin: 4px 10%;
 }
 
+.contrast-text--no-logo {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-primary);
+  text-align: center;  
+  margin: 60px 40px 0;
+}
+
 .btn {
   background: var(--color-secondary--two);
   border: 1px solid var(--color-secondary--two);
@@ -82,7 +90,8 @@ main {
   text-align: center;
   width: 180px;
   height: 40px;
-  margin: 8px;
+  margin: 8px auto;
+  display: block;
 }
 
 footer {
@@ -98,4 +107,57 @@ footer {
   color: var(--color-white);
   font-weight: 600;
   text-decoration: none;
+}
+
+.form-two {
+  background-color: var(--color-lightgray);
+  padding: 32px 16px;
+  border-radius: 10px;
+  margin: 24px;
+  width: 90%;
+}
+.form-two__label {
+  display: block;
+  color: var(--color-primary);
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.form-two__input {
+  padding: 12px 16px;
+  font-size: 14px;
+  color: var(--color-darkgray);
+  font-family: var(--font--main);
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  margin-top: 8px;
+  width: 100%;
+}
+
+.form-two__input::placeholder {
+  font-size: 14px;
+  color: var(--color-darkgray);
+  font-family: var(--font--main);
+}
+
+textarea {
+  margin-bottom: 32px;
+}
+
+.form-two__title {
+  font-size: 21px;
+  color: var(--color-darkgray);
+  text-align: center;
+}
+
+.form-two__img {
+  display: block;
+  margin: 4px auto 8px;
+}
+
+.form-two p {
+  font-size: 12px;
+  color: var(--color-secondary--two);
+  text-align: center;
 }
